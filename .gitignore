@@ -1,0 +1,22 @@
+# Répertoires générés par Terraform
+**/.terraform/
+
+# Fichiers d'état Terraform
+**/*.tfstate
+**/*.tfstate.*
+
+# Plans Terraform
+**/*.tfplan
+**/tfplan
+
+# Variables potentiellement sensibles
+**/*.tfvars
+**/*.tfvars.json
+
+# Clés privées
+**/*.pem
+**/*.key
+
+# Journaux d'erreur
+**/crash.log
+**/crash.*.log
